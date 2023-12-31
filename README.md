@@ -9,6 +9,6 @@ Our Hugging Face Models: https://huggingface.co/ytu-ce-cosmos    <br><br>
 Director of the group: **Prof. Dr. Mehmet Fatih Amasyali** <br>
 https://sites.google.com/view/mfatihamasyali/ana-sayfa <br>
 https://avesis.yildiz.edu.tr/amasyali    <br>
-
+https://scholar.google.com.tr/citations?user=qTUSAy0AAAAJ&hl=tr
 
 
