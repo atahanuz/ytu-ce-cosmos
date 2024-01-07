@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>COSMOS</title>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#our-websites">Our Websites</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#team-members">Team Members</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+<br>
+<img src="{{ url_for('static', filename='images/newfull.png') }}" alt="Description of the image" width="1200" , height="430" border: 1px solid #ccc; padding: 10px;">
+
+<div id="about-us">
+    <h2 class="title-about">About Us</h2>
+    <p>We're COSMOS, the Artificial Intelligence Research Group of Yildiz Technical University Computer Engineering Department, led by Prof. Mehmet Fatih Amasyali. We will be working on cutting-edge Natural Language Processing articles and projects. </p>
+    </div>
+
+
+
+<br><br>
+<div id="our-websites" style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 20px;">
+    <h2 class="title-websites">Our Websites</h2>
+  <br>
+
+    <div>
+        <h3>Our LinkedIn:</h3>
+        <a href="https://www.linkedin.com/company/ytu-cosmos/">
+            <img src="{{ url_for('static', filename='images/linkedin.png') }}" width="120" height="120">
+        </a>
+    </div>
+
+    <div>
+        <h3>Our Public Github Repository:</h3>
+        <a href="https://github.com/atahanuz/ytu-ce-cosmos/">
+            <img src="{{ url_for('static', filename='images/github.png') }}"   width="120" height="120">
+        </a>
+    </div>
+
+    <div>
+        <h3>Our Hugging Face NLP Models:</h3>
+        <a href="https://huggingface.co/ytu-ce-cosmos">
+            <img src="{{ url_for('static', filename='images/hugging.png') }}" width="375" height="120">
+        </a>
+    </div>
+
+    <div>
+        <h3>Our Instagram:</h3>
+        <a href="https://www.instagram.com/ytu.cosmos/">
+            <img src="{{ url_for('static', filename='images/instagram.png') }}" width="120" height="120">
+        </a>
+    </div>
+
+
+
+
+</div>
+
+
+<br><br>
+
+<div id="team-members">
+    <h2 class="title-team">Team Members</h2>
+    <p>Meet the brilliant minds behind COSMOS. Our team comprises world-renowned scientists, engineers, and researchers dedicated to uncovering the mysteries of the universe.</p>
+    <div style="font-family: Arial, sans-serif; color: #333;">
+        <h2 style="color: #0056b3; margin-bottom: 10px;">Academia</h2>
+
+        <p style="margin-left: 20px; color: #555;"><span style="color: #0056b3; margin-right: 5px;">●</span>Prof. Mehmet Fatih AMASYALI</p>
+
+        <p style="margin-left: 20px; color: #555;"><span style="color: #0056b3; margin-right: 5px;">●</span>Res. Asst. Himmet Toprak KESGİN</p>
+        <p style="margin-left: 20px; color: #555;"><span style="color: #0056b3; margin-right: 5px;">●</span>Res. Asst. Muzaffer Kaan YÜCE</p>
+
+        <h2 style="color: #8000b3; margin-bottom: 10px;">Students</h2>
+
+        <p style="margin-left: 20px; color: #555;"><span style="color: #8000b3; margin-right: 5px;">●</span>Atahan Uz</p>
+
+        <p style="margin-left: 20px; color: #555;"><span style="color: #8000b3; margin-right: 5px;">●</span>Mehmet Egemen Uzun</p>
+        <p style="margin-left: 20px; color: #555;"><span style="color: #8000b3; margin-right: 5px;">●</span>Eren Doğan</p>
+        <p style="margin-left: 20px; color: #555;"><span style="color: #8000b3; margin-right: 5px;">●</span>Ahmed Zeer</p>
+    </div>
+
+
+
+
+
+</div>
+
+<br><br>
+
+<div id="news">
+    <h2 class="title-news">Latest News</h2>
+    <div id="news-container"></div>
+</div>
+
+
+<br><br>
+
+
+<div id="contact">
+    <h2 class="title-contact">Contact</h2>
+
+    <p>Got questions or interested in collaborating with us? Reach out to the COSMOS team.<br> Email: ytu.cosmos@gmail.com</p>
+    YTU Computer Engineering Homepage: <a href="https://www.ce.yildiz.edu.tr">https://www.ce.yildiz.edu.tr</a>
+</div>
+
+<script src="../static/js/script.js"></script>
+</body>
+</html>
