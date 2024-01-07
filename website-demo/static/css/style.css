@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    z-index: 10;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+div.card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+div.card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
+
+:root {
+    --color-about: #8B0000; /* Red */
+    --color-websites: #3498db; /* Blue */
+    --color-news: #2ecc71; /* Green */
+    --color-team: #f1c40f; /* Yellow */
+    --color-contact: #9b59b6; /* Purple */
+}
+
+.title-about {
+    color: var(--color-about);
+    font-size: 40px
+    /* Additional styling like font-size, font-weight, etc. */
+}
+
+.title-websites {
+    color: var(--color-websites);
+    font-size: 40px
+    /* Additional styling */
+}
+
+.title-news {
+    color: var(--color-news);
+    font-size: 40px
+    /* Additional styling */
+}
+
+.title-team {
+    color: var(--color-team);
+    font-size: 40px
+    /* Additional styling */
+}
+
+.title-contact {
+    color: var(--color-contact);
+    font-size: 40px
+    /* Additional styling */
+}
