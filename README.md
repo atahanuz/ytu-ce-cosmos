@@ -1,11 +1,15 @@
 # ytu-ce-cosmos
-This is the public repository of the Yildiz Technical University Computer Engineering Department Cosmos Research Group <br><br>
-We're working on artificial intelligence and natural language processing projects& articles <br><br>
-    <img src="https://i.imgur.com/xhJAANQ.png" width="200" height="200">
+We're COSMOS, the Artificial Intelligence Research group of Yildiz Technical University Computer Engineering Department, led by Prof. Mehmet Fatih Amasyali. We will be working on cutting edge AI articles and projects, particularly on the natural language processing field <br> <br>
+<img src="https://i.imgur.com/gIwXjyT.png" width="600" >
 
 
-YTU Computer Engineering: https://www.ce.yildiz.edu.tr  <br><br>
-Our website: *upcoming *   <br><br>
+## Our website: https://cosmos.yildiz.edu.tr
+
+## Our mail: cosmos@yildiz.edu.tr
+
+### Contact: Email us at our official email address provided above. We actively monitor our inbox and will get back to you as soon as possible! <br>
+
+YTU Computer Engineering Homepage : https://www.ce.yildiz.edu.tr  <br><br>
 Our Hugging Face Models: https://huggingface.co/ytu-ce-cosmos    <br><br>
 
 Director of the group: **Prof. Dr. Mehmet Fatih Amasyali** <br>
